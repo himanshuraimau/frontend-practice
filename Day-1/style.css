@@ -1,0 +1,90 @@
+
+body,html{
+    
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+      display: felx;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      
+}
+
+.texts button{
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px silver;
+    border:none;
+}
+
+.p1{
+    font-weight: bold;
+    
+}
+.p2{
+    font-style: italic;
+}
+ .p3{
+    font-family: Arial;
+ }
+ .p4{
+    font-family: 'Times New Roman';
+ }
+.p5{
+        text-decoration: underline;    
+}
+.p6{
+    text-decoration: line-through;
+}
+.headings button{
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px silver;
+    font-weight: bold;
+}  
+
+.p1c{
+    color: orange;
+}
+.box{
+    padding: 20px 20px;
+    border: none;
+    background-color: orange;
+}
+.p2c{
+    color:purple;
+}
+.circle{
+    padding: 20px 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: purple;
+}
+
+.button1{
+    padding-top: 20px;
+}
+
+.default{
+    background-color: rgb(71, 71, 194);
+    padding: 8px 50px;
+    border: none;
+}
+.hovered{
+    background-color: rgb(65, 65, 160);
+    padding: 8px 50px;
+    cursor: pointer;
+    border: none;
+}
+.active{
+    background-color: silver;
+    padding: 8px 50px;
+    cursor: pointer;
+    pointer-events: visible;
+    border: none;
+}
