@@ -51,6 +51,13 @@ body,html{
 .p1c{
     color: orange;
 }
+.mainc{
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px silver;
+    font-weight: bold;
+}
 .box{
     padding: 20px 20px;
     border: none;
@@ -69,6 +76,13 @@ body,html{
 .button1{
     padding-top: 20px;
 }
+.mainb{
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px silver;
+    border:none;
+}
+
 
 .default{
     background-color: rgb(71, 71, 194);
